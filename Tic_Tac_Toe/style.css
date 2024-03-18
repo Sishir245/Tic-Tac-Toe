@@ -1,0 +1,45 @@
+/* Leacture 9  */
+
+body{
+    background-color: aquamarine;
+    color:maroon ;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 2rem;
+    font-size: 8vmin;
+    border: none;
+    background-color: beige;
+    color: coral;
+    
+}
+.reset{
+    height:10vmin;
+    width: 25vmin;
+    background-color: chocolate;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size:4vmin ;
+}
+.msg{
+    font-size: 6vmin;
+    color: rgb(240, 100, 158);
+}
